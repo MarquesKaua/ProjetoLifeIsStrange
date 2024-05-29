@@ -1,0 +1,1 @@
+First project, trying to understand better the tags in html, studying css too, just the basic thing.i think i tried doing something very difficult for a begginer, its really hard for me now positioning andmaking it responsive, for know it is only working on operagx
