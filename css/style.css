@@ -8,7 +8,8 @@
 }
 
 body{
-    background: linear-gradient(#0f5274, #277599);
+    backdrop-filter: blur(10px); 
+    background: linear-gradient(to right, #0f5274, #277599);
 }
 
 body, html  {
@@ -37,6 +38,22 @@ body, html  {
 
 #header {
     padding: 20px;
+}
+
+#logo4{
+    margin-top: 13px;
+    margin-left: -2vw;
+    width: 550px;
+    position: absolute;
+    display: flex;
+}
+
+#logo5{
+    margin-top: 13px;
+    margin: 2%;
+    width: 500px;
+    position: absolute;
+    display: flex;
 }
 
 #logo {
@@ -70,6 +87,36 @@ body, html  {
     
 }
 
+#buttons3{
+    width: 50%;
+    color: #FFF4E4;
+    cursor: pointer;
+    margin-top: 33%;
+    margin-left: -7%;
+    display: flex;
+    
+}
+
+#buttons4{
+    width: 50%;
+    color: #FFF4E4;
+    cursor: pointer;
+    margin-top: 33%;
+    margin-left: -7%;
+    display: flex;
+    
+}
+
+
+
+#Section3{
+    display: none;
+}
+
+#Section4{
+    display: none;
+}
+
 #Section2{
     overflow: hidden;
     margin: -5px;
@@ -79,7 +126,7 @@ body, html  {
     height: 106%;
 }
 
-#buttons li:hover, #buttons2 li:hover{
+#buttons li:hover, #buttons2 li:hover,#buttons3 li:hover,#buttons4 li:hover{
     transform: scale(1.2);
 }
 
@@ -110,6 +157,33 @@ body, html  {
   
 }
 
+#MaxSec3, #SeanDaniSec3,#ChloeSec3,#AlexSec3{
+    display: block;
+    float: left;
+    width: 10px; 
+    height: 10px; 
+    list-style: none;
+    transition: transform 0.3s;
+    padding: 50px;
+    margin-top: -10%;
+    margin-right:40px;
+  
+}
+
+#MaxSec4, #SeanDaniSec4,#ChloeSec4,#AlexSec4{
+    display: block;
+    float: left;
+    width: 10px; 
+    height: 10px; 
+    list-style: none;
+    transition: transform 0.3s;
+    padding: 50px;
+    margin-top: -10%;
+    margin-right:40px;
+  
+}
+
+
 
 
 .buttonimg{
@@ -119,7 +193,7 @@ body, html  {
     height: 100px;
 }
 
-#images{
+#images, #images3, #images4{
     justify-content: center;
     display: flex;
 }
@@ -132,14 +206,14 @@ body, html  {
     left: 78vw;
     position: fixed;
     opacity: 0.7;
-    bottom: 70vh;
+    bottom: 80vh;
   
 }
 
 #fly1{
     left: 62vw;
     opacity: 0.7;
-    bottom: 68vh;
+    bottom: 80vh;
     transform: rotate(320deg);
     position: fixed;
 }
@@ -149,7 +223,7 @@ body, html  {
     left: 70vw;
     opacity: 0.7;
     position: fixed;
-    bottom: 80vh;
+    bottom: 90vh;
     transform: rotate(0deg);
 }
 
@@ -162,7 +236,7 @@ body, html  {
     width: 100%;
 }
 
-#text, #text2 {
+#text, #text2, #text3, #text4{
     font-size: 22px;
     text-align: left;
     display: block;
@@ -189,20 +263,59 @@ body, html  {
     bottom: 40%;
 }
 
+#icon3{
+    width: 35%;
+    height: 80%;
+    display: flex;
+    position: fixed;
+    left: 60%;
+    opacity: 0.8;
+    z-index: 1;
+    bottom: 40%;
+}
+
+#icon4{
+    width: 30%;
+    height: 60%;
+    display: flex;
+    position: fixed;
+    left: 65%;
+    opacity: 0.8;
+    z-index: 1;
+    bottom: 43%;
+}
+
 #max{
     height: 90%;
     bottom: -6%;
     display: flex;
     position: fixed;
-    margin-left: 55%;
+    margin-left: 52%;
 }
 
 #seandani{
-    height: 90%;
+    height: 80%;
     margin-top: 3%;
-    margin-left: 57%;
+    margin-left: 55%;
     display: flex;
     position: fixed;
     z-index: 2;
 
+}
+
+#Chloe{
+    height: 100%;
+    margin-left: 57%;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+}
+
+#Alex{
+    height: 80%;
+    bottom: 0%;
+    margin-left: 55%;
+    display: flex;
+    position: fixed;
+    z-index: 2;
 }
